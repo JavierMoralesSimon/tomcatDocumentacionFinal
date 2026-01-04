@@ -33,7 +33,7 @@ Esta integración permite:
 
 ## Seguridad aplicada
 Tomcat ofrece varias medidas de seguridad:
-  * Autenticación y autorización mediante tomcat-users.xml y Realms.
+  * Autenticación y autorización mediante `tomcat-users.xml` y Realms.
   * Conexiones seguras (HTTPS) usando certificados SSL en el conector.
   * Roles y permisos para administrar el acceso a la consola.
   * Valves de seguridad para control de IP, limitación de accesos y protección contra ataques.
