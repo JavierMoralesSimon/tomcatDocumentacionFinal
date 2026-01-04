@@ -8,11 +8,11 @@
       * **Cluster**: Componente opcional que permite la configuración de balanceo de carga y replicación de sesiones.
       * **Valve y Realm**: Componentes para seguridad y filtrado de solicitudes.
   2. Flujo de solicitud:
-      2.1. El cliente realiza una solicitud HTTP.
-      2.2. Coyote recibe la solicitud y la pasa a Catalina.
-      2.3. Catalina determina qué servlet o JSP debe procesar la solicitud.
-      2.4. El servlet/JSP genera la respuesta.
-      2.5. La respuesta se devuelve al cliente a través de Coyote.
+  2.1. El cliente realiza una solicitud HTTP.
+  2.2. Coyote recibe la solicitud y la pasa a Catalina.
+  2.3. Catalina determina qué servlet o JSP debe procesar la solicitud.
+  2.4. El servlet/JSP genera la respuesta.
+  2.5. La respuesta se devuelve al cliente a través de Coyote.
 
 ## Configuración del servidor
 Tomcat se configura principalmente mediante archivos XML ubicados en el directorio `conf`. Estos archivos son:
