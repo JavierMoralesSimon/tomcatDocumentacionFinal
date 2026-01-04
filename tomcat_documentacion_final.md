@@ -2,8 +2,7 @@
 
 ## Arquitectura básica de Tomcat
   1. Componentes principales:
-
-    * **Catalina**: Motor de servlet que implementa el ciclo de vida de los servlets y maneja las solicitudes HTTP.
+    * Catalina: Motor de servlet que implementa el ciclo de vida de los servlets y maneja las solicitudes HTTP.
     * **Coyote**: Conector HTTP que permite que Tomcat funcione como un servidor web independiente.
     * **Jasper**: Motor de JSP encargado de compilar y ejecutar páginas JSP.
     * **Cluster**: Componente opcional que permite la configuración de balanceo de carga y replicación de sesiones.
