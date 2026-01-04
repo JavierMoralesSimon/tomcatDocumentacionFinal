@@ -43,6 +43,7 @@ Para evaluar el rendimiento de Tomcat se pueden utilizar herramientas como:
   * **Apache JMeter**: Generación de carga simulada y pruebas de estrés.
   * **Gatling**: Pruebas de carga avanzadas con escenarios complejos.
   * **Monitorización interna**: Manager y JMX para revisar el uso de hilos, conexiones activas y el tiempo de respuesta de servlets.
+
 Como buenas prácticas:
   * Habilitar thread pool adecuado (maxThreads) según la carga.
   * Configurar keep-alive y compresión HTTP para optimizar rendimiento.
